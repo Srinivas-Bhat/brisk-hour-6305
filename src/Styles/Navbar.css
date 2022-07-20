@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar-Container {
+  border: 1px solid #000;
+  height: 132px;
+  width: 100%;
+}
+
+.head_locator_wrapper {
+  width: 430px;
+}
+
+.head_flex {
+/* border: 1px solid black; */
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_right_icon_wrapper {
+  width: 420px;
+  display: flex;
+  justify-content: center; 
+}
+
+.header-sec {
+  width: 91%;
+  height: 85px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header_store_locator {
+  width: 180px;
+  height: 60px;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.header_website_title {
+  height: 38px;
+  width: 208px;
+  background: no-repeat
+    url("https://cdn.shopify.com/s/files/1/0283/0185/2747/files/bluemercury-logo_1216x.png?v=1648743182");
+  background-size: cover;
+}
+
+.wish_icon_wrapper {
+  height: 38px;
+  width: 111px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.heart_icon{
+    width: 25px;
+    height: 25px;
+}
+
+.search_icon_wrapper {
+  height: 38px;
+  width: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  
+}
+
+.search_icon{
+    width: 25px;
+    height: 25px;
+}
+
+.signup_icon_wrapper {
+  height: 38px;
+  width: 121px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.signup_icon{
+    width: 26px;
+    height: 26px;
+}
+
+.bag_icon_wrapper {
+  height: 38px;
+  width: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bag_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.cart_count {
+  position: absolute;
+  top: 18.5%;
+  right: 11.3%;
+  font-size: 13px;
+}
+
+.dropdown_section_wrapper{
+    height: 47px;
+    width: 62%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hover-dropdown1{
+    padding: 10px;
+}
+
+.dropdown-content1{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    top: 22%;
+    right: 0%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown1:hover .dropdown-content1{
+    display: block;
+
+}
+
+.hover-dropdown2{
+    padding: 10px;
+}
+
+.dropdown-content2{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown2:hover .dropdown-content2{
+    display: block;
+}
+
+.hover-dropdown3{
+    padding: 10px;
+}
+
+.dropdown-content3{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown3:hover .dropdown-content3{
+    display: block;
+}
+
+.hover-dropdown4{
+    padding: 10px;
+}
+
+.dropdown-content4{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown4:hover .dropdown-content4{
+    display: block;
+}
+
+.hover-dropdown5{
+    padding: 10px;
+}
+
+.dropdown-content5{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown5:hover .dropdown-content5{
+    display: block;
+}
+
+.hover-dropdown6{
+    padding: 10px;
+}
+
+.dropdown-content6{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown6:hover .dropdown-content6{
+    display: block;
+}
+
+.hover-dropdown7{
+    padding: 10px;
+}
+
+.dropdown-content7{
+    display: none;
+    border: 5px solid rgb(255, 0, 0);
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    height: 470px;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    background-color: white;
+    z-index: 200;
+}
+
+.hover-dropdown7:hover .dropdown-content7{
+    display: block;
+}
+
+
+
+/* responsiveness ***************************************** */
+
+@media only screen and (max-width: 1024px) { 
+    .Navbar-Container{
+        height: 100px;
+    }
+
+    .header_store_locator{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+        width: 200px;
+        position: absolute;
+        top: 30px;
+    }
+
+    .head_flex{
+        width: 450px;
+        padding: 0px 40px 0px 0px;
+    }
+
+    .descriptions{
+        display: none;
+    }
+
+    .head_right_icon_wrapper{
+        width: 250px;
+        padding: 10px 20px;
+    }
+    
+    .cart_count{
+        display: none;
+    }
+
+    .dropdown_section_wrapper{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+}

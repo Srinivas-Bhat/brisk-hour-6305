@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.moving_offers_sec{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12284c;
+}
+
+.moving_heading{
+    font-size: 13px;
+}
+
+
+.mySwiper {
+    margin-top: -5px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 440px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 420px;
+    margin: 0px 0;
+  }
+
+  .offers1_wrapper{
+    height: 100%;
+    width: 100%;
+    background: url("https://cdn.shopify.com/s/files/1/0283/0185/2747/files/fos-2022-july-hero-des_2000x.jpg?v=1657144325");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .offers1_des{
+    width: 23em;
+    height: 18em;
+    margin: 60px 50px;
+    padding: 20px 20px;
+    text-align: left;
+  }
+
+  .offer1_subheading{
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .shopnow_offers1{
+    padding: 5px 8px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    font-weight: 600;
+    font-family: "Montserrat";
+  }
+
+  .offers2_wrapper{
+    height: 100%;
+    width: 100%;
+    background: url("https://cdn.shopify.com/s/files/1/0283/0185/2747/files/hero-des_7a459285-a1a6-4c17-8383-f26887d149ba_2000x.jpg?v=1656625184");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .offers2_des{
+    position: absolute;
+    left: 40%;
+    height: 18em;
+    margin: 60px 50px;
+    padding: 20px 20px;
+    text-align: left;
+  }
+
+  .offer2_subheading{
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .offer2_spanTag{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .offers3_wrapper{
+    height: 100%;
+    width: 100%;
+    background: url("https://cdn.shopify.com/s/files/1/0283/0185/2747/files/coop-dyson-july-2022-hero-des_2000x.jpg?v=1657144840");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .offers3_des{
+    width: 28em;
+    height: 18em;
+    margin: 60px 50px;
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .offer3_subheading{
+    color: #12284c;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .shopnow_offers3{
+    padding: 0px 0px;
+    color: #12284c;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-top: 12px;
+    border-bottom: 2px solid #12284c;
+    font-weight: 600;
+    font-family: "Montserrat";
+  }
+
+  .offers4_wrapper{
+    height: 100%;
+    width: 100%;
+    background: url("https://cdn.shopify.com/s/files/1/0283/0185/2747/files/coop-moroccanoil-july-hp-hero-des-2_2000x.jpg?v=1657227342");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .offers4_des{
+    width: 30em;
+    height: 18em;
+    margin: 60px 50px;
+    padding: 20px 20px;
+    text-align: left;
+  }
+
+  .offer4_subheading{
+    color: #12284c;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
