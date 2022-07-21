@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.New_Arrivals_title1{
+    margin-top: 6em;
+}
+
+.swiper_wrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new_arrivals_swiper1{
+    width: 82%;
+    display: flex;
+    justify-self: center;
+    height: 360px;
+    margin: 40px 0;
+}
+
+.new_Arrivals_swiperSlide1{
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
+    background: #fff;
+    transition-delay: 2s;
+  
+    /* Center slide text vertically */
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
+    /* display: -webkit-flex; */
+    /* display: flex; */
+    /* -webkit-box-pack: center; */
+    /* -ms-flex-pack: center; */
+    /* -webkit-justify-content: center; */
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
+    /* -webkit-align-items: center; */
+    /* align-items: center; */
+}
+
+.swiper_image_wrapper1{
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.swiper_Image1{
+    max-width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px;
+}
+
+.description_wrapper1{
+    text-align: center;
+}

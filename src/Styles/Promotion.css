@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Promotion_images_container{
+    height: 620px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.promotion_image_section{
+    height: 100%;
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 0px;
+}
+
+.promotion_first_image{
+    height: 550px;
+    width: 630px;
+}
+
+.promotion_second_image{
+    height: 550px;
+    width: 630px;
+}
+
+.image_wrapper_div{
+    width: 100%;
+    height: 395px;
+}
+
+.promotion_shopnow_btn{
+    padding: 0px 0px;
+    color: #12284c;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid #12284c;
+    font-weight: 600;
+    font-family: "Montserrat";
+  }
