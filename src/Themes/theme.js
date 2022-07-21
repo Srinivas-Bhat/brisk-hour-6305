@@ -55,7 +55,7 @@ const theme = extendTheme({
           letterSpacing: "1px",
         },
         h3: {
-          fontWeight: "400",
+          fontWeight: "300",
           fontSize: "14px",
           color: "#12284c",
           fontFamily: "'Montserrat', san-serif",
@@ -101,6 +101,13 @@ const theme = extendTheme({
           fontSize: "22px",
           color: "white",
         },
+        h10: {
+          fontWeight: "450",
+          fontSize: "15px",
+          color: "#12284c",
+          fontFamily: "'Montserrat', san-serif",
+          letterSpacing: "1px",
+        },
       },
     },
     Text: {
@@ -109,6 +116,16 @@ const theme = extendTheme({
         fontWeight: "400",
         color: "#12284c",
         fontFamily: "'Montserrat', san-serif",
+      },
+      variants: {
+        heads: {
+          fontFamily: "'Montserrat', san-serif",
+          letterSpacing: "1px",
+          fontWeight: "400",
+          fontSize: "26px",
+          color: "#12284c",
+          textAlign: "center",
+        },
       },
     },
     Flex: {

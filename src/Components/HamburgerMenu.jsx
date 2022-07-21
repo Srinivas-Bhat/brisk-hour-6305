@@ -60,25 +60,6 @@ function DrawerExample({ isOpen, onOpen, onClose, btnRef }) {
                 <Accordions key={el} title={el} />
               ))}
             </div>
-            {/* <div>BEAUTY ALFRESCO</div>
-            <div>BRANDS</div>
-            <div>NEW!</div>
-            <div>BESTSELLERS</div>
-            <div>SKINCARE</div>
-            <div>MAKEUP</div>
-            <div>HAIR</div>
-            <div>BATH & BODY</div>
-            <div>FRAGRANCE</div>
-            <div>TOOLS & ACCESSORIES</div>
-            <div>HOME & LIFESTYLE</div>
-            <div>SUN CARE</div>
-            <div>MEN</div>
-            <div>GIFTS</div>
-            <div>WELLNESS</div>
-            <div>FREE GIFTS!</div>
-            <div>LEARN & EXPLORE</div>
-            <div>EVENTS</div>
-            <div>BLUEREWARDS</div> */}
             <div>STORE & SPA LOCATOR</div>
           </DrawerBody>
 
