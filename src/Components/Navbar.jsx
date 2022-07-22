@@ -67,7 +67,9 @@ const Navbar = () => {
           <Heading as="h3" variant="h4" className="drophead">
             SHOP
           </Heading>
-          <div className="dropdown-content1">hello</div>
+          <div className="dropdown-content1"> 
+            <div>hello</div>
+          </div>
         </div>
         <div className="hover-dropdown2">
           <Heading as="h3" variant="h4" className="drophead">

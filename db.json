@@ -1,0 +1,363 @@
+{
+    "ProductsArray": [
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2e5a3725/crop/026353210_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Eucalyptus Spearmint",
+          "type": "Moisturizing Body Lotion",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dweab7023b/crop/026353222_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Lavender Vanilla",
+          "type": "Ultimate Hydration Body Cream",
+          "price": 16.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf48f3eef/crop/026353233_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Black Chamomile",
+          "type": "Pillow and Body Mist",
+          "price": 14.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa393dab9/crop/026353262_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Eucalyptus Spearmint",
+          "type": "Bath Soak",
+          "price": 18.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2455126b/crop/026410945_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Orange Ginger",
+          "type": "Gentle & Clean Foaming Hand Soap",
+          "price": 7.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1b5146ea/crop/026353240_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Eucalyptus Spearmint",
+          "type": "Moisturizing Body Wash",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw22111d6f/crop/026353200_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Eucalyptus Spearmint",
+          "type": "Body Wash and Foam Bath",
+          "price": 14.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd7bab2f1/crop/026353230_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Eucalyptus Spearmint",
+          "type": "Essential Oil Mist",
+          "price": 14.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbfc18541/crop/026401907_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Hibiscus Mandarin Violet",
+          "type": "Ultimate Hydration Body Cream",
+          "price": 17.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw405fd62d/crop/026401906_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Pineapple Lime Eucalyptus",
+          "type": "Ultimate Hydration Body Cream",
+          "price": 17.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwaa9a590e/crop/026400298_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Pineapple Lime Eucalyptus",
+          "type": "Body Wash and Foam Bath",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw77031493/crop/026400299_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Hibiscus Mandarin Violet",
+          "type": "Body Wash and Foam Bath",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb37ec169/crop/026403500_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Sandalwood Eucalyptus Mandarin",
+          "type": "Ultimate Hydration Body Cream",
+          "price": 17.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe52c7f04/crop/026403504_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Sandalwood Eucalyptus Mandarin",
+          "type": "Body Wash and Foam Bath",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe8bc2c4c/crop/026401902_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Pineapple Lime Eucalyptus",
+          "type": "Moisturizing Body Lotion",
+          "price": 16.5,
+          "description": "Mix & Match: Buy 3, Get 3 Free or Buy 2, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwaf5dec98/crop/026439080_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Lavender Mint Tea",
+          "type": "Ultimate Hydration Body Cream",
+          "price": 17.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc189b575/crop/026240389_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "A Thousand Wishes",
+          "type": "Super Smooth Body Lotion",
+          "price": 14.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8a157107/crop/026353232_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Lavender Vanilla",
+          "type": "Pillow and Body Mist",
+          "price": 14.5,
+          "description": "$5.95 Today Only! with Code: TIME2RELAX"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc02b92b6/crop/026381189_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Cacao Rose",
+          "type": "Body Wash and Foam Bat",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw50a09db0/crop/026395407_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Freshwater",
+          "type": "3-in-1 Hair, Face & Body Wash",
+          "price": 14.5,
+          "description": "$5.95 Today Only! with Code: TIME2RELAX"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw81522767/crop/026401914_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Pineapple Lime Eucalyptus",
+          "type": "Essential Oil Mist",
+          "price": 15.5,
+          "description": "$5.95 Today Only! with Code: TIME2RELAX"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dweccfb026/crop/026451873_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "White Tea & Sage",
+          "type": "Shower Gel",
+          "price": 13.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwba77ffbc/crop/026267868_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Ocean",
+          "type": "Body Spray",
+          "price": 13.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf97a6473/crop/026414639_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Butterfly",
+          "type": "Fine Fragrance",
+          "price": 17.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe52c7f04/crop/026403504_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Sandalwood Eucalyptus Mandarin",
+          "type": "Body Wash and Foam Bath",
+          "price": 15.5,
+          "description": "Mix & Match: Buy 3, Get 1 Free"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwff743235/crop/026438530_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Japanese Cherry Blossom",
+          "type": "Ultimate Hydration Body Cream",
+          "price": 15.5,
+          "description": "$5.95 Today Only! with Code: TIME2RELAX"
+        },
+      {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0a270a6e/crop/026487394_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Wildberry Lemonade",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 7.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04740286/crop/026487386_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Island Punch",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 7.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd9b51dce/crop/026474055_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Lakeside Afternoon",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 7.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf0f64f42/crop/026490035_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Oceanfront Garden",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 7.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa24f152e/crop/026474057_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Sweet Orange Blossom",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 9.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw632f0f2e/crop/026470439_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Sea Salt & Lime",
+          "type": "Gentle Gel Hand Soap",
+          "price": 12.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw71938d61/crop/026410946_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Lavender Vanilla",
+          "type": "Gentle & Clean Foaming Hand Soap",
+          "price": 10.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe54dee11/crop/026460679_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "White Tea & Sage",
+          "type": "Gentle Gel Hand Soap",
+          "price": 10.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb5dd2898/crop/026426961_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Waikiki Beach Coconut",
+          "type": "Gentle Gel Hand Soap",
+          "price": 9.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0b28cffb/crop/026460671_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Kitchen Lemon",
+          "type": "Gentle Gel Hand Soap",
+          "price": 9.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcabace75/crop/026393062_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Kitchen Lemon",
+          "type": "Gentle & Clean Foaming Hand Soap",
+          "price": 10.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw386ad733/crop/026410944_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Eucalyptus Spearmint",
+          "type": "Gentle & Clean Foaming Hand Soap",
+          "price": 9.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf6ceee82/crop/026460823_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Iced Dragonfruit Tea",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 10.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw54c12225/crop/026439201_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Butterfly",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 10.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "img": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe8ae5215/crop/026438945_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+          "fname": "Strawberry Pound Cake",
+          "type": "Gentle Foaming Hand Soap",
+          "price": 9.5,
+          "description": "Mix & Match: 6/$27 or 4/$20"
+        },
+        {
+          "description": "Desertland Body Wash",
+          "fname": "ORIBE",
+          "price": 48,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840035217345-1_235x.jpg?v=1655323206",
+          "type": "Body Wash"
+      
+      },
+      {
+          "description": "Anti-Breakout Skincare Wand with Blue Light Therapy",
+          "fname": "SOLAWAVE",
+          "price": 110,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-860004981145-1_235x.jpg?v=1657294296",
+          "type": ""
+      },
+      {
+          "description": "Odor Removing Candle with Basil",
+          "fname": "DIPTYQUE",
+          "price": 70,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700431438508-1_235x.jpg?v=1657238737",
+          "type": ""
+      },
+      {
+          "description": "Laguna Bronzing Cream",
+          "fname": "NARS",
+          "price": 38,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-laguna01-194251134482-1_235x.jpg?v=1656523888",
+          "type": ""
+      },
+      {
+          "description": "The Absolute Discovery Ritual",
+          "fname": "NOBLE PANACEA",
+          "price": 293,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-1230000065108-1_235x.jpg?v=1656385951",
+          "type": ""
+      },
+      {
+          "description": "No. 9 Bond Protector Nourishing Hair Serum",
+          "fname": "OLAPLEX",
+          "price": 30,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850018802284-1_235x.jpg?v=1657027319",
+          "type": ""
+      },
+      {
+          "description":  "Cote d'Azur Body Wash",
+          "fname":  "ORIBE",
+          "price":  48,
+          "img":  "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840035217253-1_235x.jpg?v=1655323200",
+          "type": ""
+      },
+      {
+          "description": "Valley of Flowers Body Creme",
+          "fname": "ORIBE",
+          "price": 65,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840035217703-1_235x.jpg?v=1655323229",
+          "type": ""
+      },
+      {
+          "description": "Valley of Flowers Body Wash",
+          "fname": "ORIBE",
+          "price": 45,
+          "img": "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840035217437-1_235x.jpg?v=1655323212",
+          "type": ""
+      },
+      {
+          "description":  "AUGUSTINUS BADER",
+          "fname":  "The Light Cream",
+          "price":  175,
+          "img":  "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-5060552905647-1_235x.jpg?v=1657670868",
+          "type": ""
+      }
+      
+    ]
+}
