@@ -5,7 +5,7 @@
 }
 
 .Navbar-Container {
-  border: 1px solid #000;
+  border: 1px solid #f1f1f1;
   height: 132px;
   width: 100%;
 }
@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .head_right_icon_wrapper {
@@ -40,10 +41,12 @@
 .header_store_locator {
   width: 180px;
   height: 60px;
+  cursor: pointer;
 }
 
 .hamburger-menu{
     display: none;
+    cursor: pointer;
 }
 
 .header_website_title {
@@ -60,6 +63,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .heart_icon{
@@ -74,6 +78,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
   
 }
 
@@ -89,6 +94,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .signup_icon{
@@ -103,6 +109,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .bag_icon {
@@ -128,6 +135,7 @@
 
 .hover-dropdown1{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content1{
@@ -138,19 +146,22 @@
     position: absolute;
     height: 470px;
     left: 0%;
-    top: 22%;
+    top: 2.5%;
+    /* top: 100%; */
     right: 0%;
     background-color: white;
-    z-index: 200;
+    z-index: 2000;
+    /* transition: all 5s ease 2s, visibility 0s liner 0.9s, z-index 0s liner 0.01s; */
 }
 
 .hover-dropdown1:hover .dropdown-content1{
     display: block;
-
+    transition: 5s;
 }
 
 .hover-dropdown2{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content2{
@@ -162,7 +173,7 @@
     height: 470px;
     left: 0%;
     right: 0%;
-    top: 22%;
+    top: 2.5%;
     background-color: white;
     z-index: 200;
 }
@@ -173,6 +184,7 @@
 
 .hover-dropdown3{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content3{
@@ -184,7 +196,7 @@
     height: 470px;
     left: 0%;
     right: 0%;
-    top: 22%;
+    top: 2.5%;
     background-color: white;
     z-index: 200;
 }
@@ -195,6 +207,7 @@
 
 .hover-dropdown4{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content4{
@@ -206,7 +219,7 @@
     height: 470px;
     left: 0%;
     right: 0%;
-    top: 22%;
+    top: 2.5%;
     background-color: white;
     z-index: 200;
 }
@@ -217,6 +230,7 @@
 
 .hover-dropdown5{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content5{
@@ -228,7 +242,7 @@
     height: 470px;
     left: 0%;
     right: 0%;
-    top: 22%;
+    top: 2.5%;
     background-color: white;
     z-index: 200;
 }
@@ -239,6 +253,7 @@
 
 .hover-dropdown6{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content6{
@@ -250,7 +265,7 @@
     height: 470px;
     left: 0%;
     right: 0%;
-    top: 22%;
+    top: 2.5%;
     background-color: white;
     z-index: 200;
 }
@@ -261,6 +276,7 @@
 
 .hover-dropdown7{
     padding: 10px;
+    cursor: pointer;
 }
 
 .dropdown-content7{
@@ -272,7 +288,7 @@
     height: 470px;
     left: 0%;
     right: 0%;
-    top: 22%;
+    top: 2.5%;
     background-color: white;
     z-index: 200;
 }

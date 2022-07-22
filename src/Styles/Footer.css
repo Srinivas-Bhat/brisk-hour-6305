@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer_input {
+  border-bottom: 1px solid #12284c;
+  font-family: Montserrat, san-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #12284c;
+  width: 15rem;
+}
+
+.social_media_icons{
+    width: 28px;
+    height: 28px;
+
+}

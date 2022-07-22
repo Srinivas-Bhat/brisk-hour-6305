@@ -113,7 +113,7 @@ const theme = extendTheme({
     Text: {
       baseStyle: {
         fontSize: "10px",
-        fontWeight: "400",
+        fontWeight: "300",
         color: "#12284c",
         fontFamily: "'Montserrat', san-serif",
       },
@@ -126,15 +126,45 @@ const theme = extendTheme({
           color: "#12284c",
           textAlign: "center",
         },
+        footer: {
+          fontFamily: "'Montserrat', san-serif",
+          letterSpacing: "1px",
+          fontWeight: "300",
+          fontSize: "12px",
+          color: "#12284c",
+        },
+        footer1: {
+            fontFamily: "'Montserrat', san-serif",
+            letterSpacing: "1px",
+            fontWeight: "300",
+            fontSize: "12px",
+            color: "#12284c",
+            textDecoration: "underline 1px solid #12284c"
+          },
       },
     },
     Flex: {
       end: {
         justify: "flex-end",
       },
+      variant: {
+        icons: {
+            margin: '10px 0px 0px 0px',
+
+        }
+      }
     },
-    Box: {
-      variants: {},
+    Input: {
+      variants: {
+        bottom: {
+          border: "1px solid #12284c",
+          fontFamily: "'Montserrat', san-serif",
+          letterSpacing: "1px",
+          fontWeight: "300",
+          fontSize: "18px",
+          color: "#12284c",
+        },
+      },
     },
   },
 });

@@ -171,7 +171,7 @@ const Candles = () => {
                         <div className="description_wrapper2">
                             <Heading as="h2" variant="h10" mt="7px">{el.fname}</Heading>
                             <Heading as="h4" variant="h4" m="8px 0px 4px">{el.type}</Heading>
-                            <Heading as="h4" variant="h4" m="7px 8px 0px">{el.price}</Heading>
+                            <Heading as="h4" variant="h4" m="7px 8px 0px">${el.price}</Heading>
                         </div>
                     </div>
                 </SwiperSlide>
