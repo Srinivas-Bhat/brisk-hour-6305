@@ -55,7 +55,6 @@
 .mens_filter_wrapper{
     /* border: 1px solid yellowgreen; */
     width: 300px;
-    /* height: 400px; */
     margin-top: 60px;
 }
 
@@ -88,6 +87,11 @@
     gap: 10px;
 }
 
+#select_option{
+    margin: 15px 0px 15px 0px;
+    height: 20px;
+}
+
 .filters_display_section{
     display: flex;
     justify-content: space-between;
@@ -113,7 +117,7 @@
 }
 
 .Product_card_container{
-    /* border: 1px solid orangered; */
+    /* border: 2px solid orangered; */
     width: 230px;
     height: 400px;
     margin: auto;
@@ -126,7 +130,7 @@
 }
 
 .image_wrapper{
-    width: 229px;
+    width: 200px;
     height: 235px;
     /* border: 1px solid green; */
     margin: 10px 0 20px;

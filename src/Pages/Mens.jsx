@@ -284,7 +284,7 @@ const Mens = () => {
               </Heading>
               <Select
                 placeholder="Featured"
-                w="200px"
+                w="210px"
                 h="40px"
                 fontSize="14px"
                 icon={<ChevronDownIcon fontSize="30px" fontWeight="100" />}
@@ -296,7 +296,7 @@ const Mens = () => {
                 boxShadow="none"
                 _hover={{ backgroundColor: "white" }}
               >
-                <option value="Featred" className="select_option">
+                <option value="Featred" id="select_option">
                   Featured
                 </option>
                 <option value="New Arrivals">New Arrivals</option>
@@ -325,7 +325,7 @@ const Mens = () => {
             {data.map((el) => (
               <div key={el.id} className="Product_card_container">
                 <div className="image_wrapper">
-                  <img src={el.img} alt={el.fname} className="product_image" /><span><FavoriteBorderRoundedIcon sx={{fontSize: "35px", color: "#1b3052", fontWeight:"50"}}/></span>
+                  <img src={el.img} alt={el.fname} className="product_image" /><span><FavoriteBorderRoundedIcon sx={{fontSize: "25px", color: "#1b3052", fontWeight:"50"}}/></span>
                 </div>
                 <div className="title_wrapper">
                   <Heading
