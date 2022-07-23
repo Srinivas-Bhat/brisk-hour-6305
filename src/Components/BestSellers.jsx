@@ -113,7 +113,7 @@ const BestSellers = () => {
     <>
       <div className="New_Arrivals_title1">
         <Text as="h3" variant="heads">
-          NEW ARRIVALS
+          BEST SELLERS
         </Text>
       </div>
       <div className="swiper_wrapper1">
