@@ -10,10 +10,20 @@ import {
   Text,
   Select,
   Switch,
+  Flex,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
+import axios from "axios";
 import "../Styles/Mens.css";
-import { AddIcon, ChevronDownIcon, ChevronRightIcon, MinusIcon } from "@chakra-ui/icons";
+import {
+  AddIcon,
+  ChevronDownIcon,
+  ChevronRightIcon,
+  MinusIcon,
+  StarIcon,
+} from "@chakra-ui/icons";
+import { useEffect } from "react";
+import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 
 const FilterSectionArray = [
   {
@@ -90,6 +100,16 @@ const FilterSectionArray = [
   },
 ];
 const Mens = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    let r = await axios.get(`http://localhost:8080/ProductsArray`);
+    console.log(r.data);
+    setData(r.data);
+  };
   return (
     <>
       <div className="moving_offers_section">
@@ -259,22 +279,26 @@ const Mens = () => {
               MEN
             </Text>
             <div className="sort_section_wrapper">
-              <Heading as="h6" variant="h3" fontWeight="500">SORT BY</Heading>
+              <Heading as="h6" variant="h3" fontWeight="500">
+                SORT BY
+              </Heading>
               <Select
                 placeholder="Featured"
                 w="200px"
                 h="40px"
                 fontSize="14px"
-                icon={<ChevronDownIcon fontSize="30px" fontWeight="100"/>}
+                icon={<ChevronDownIcon fontSize="30px" fontWeight="100" />}
                 fontFamily="Montserrat"
                 color="#12284c"
-                border="1px solid #green"
+                border="1px dotted #e1e1e1"
                 cursor="pointer"
                 transition="0.9s ease"
                 boxShadow="none"
-                _hover={{backgroundColor: "white"}}
+                _hover={{ backgroundColor: "white" }}
               >
-                <option value="Featred" className="select_option">Featured</option>
+                <option value="Featred" className="select_option">
+                  Featured
+                </option>
                 <option value="New Arrivals">New Arrivals</option>
                 <option value="Best Sellers">Best Sellers</option>
                 <option value="Low to High">Price, Low to High</option>
@@ -284,15 +308,58 @@ const Mens = () => {
           </div>
           <hr className="seperator" />
           <div className="filters_display_section">
-            <Heading as="h3" variant="h4" fontWeight="500">0 FILTERS APPLIED</Heading>
+            <Heading as="h3" variant="h4" fontWeight="500">
+              0 FILTERS APPLIED
+            </Heading>
             <div className="stock_check_section">
-              <Heading as="h6" variant="h4" fontWeight="400">Show out of stock items</Heading>
-              <Switch size='md' colorScheme="purple" />
-              <Text variant="footer" ml="9px">1285 results</Text>
+              <Heading as="h6" variant="h4" fontWeight="400">
+                Show out of stock items
+              </Heading>
+              <Switch size="md" colorScheme="purple" />
+              <Text variant="footer" ml="9px">
+                1285 results
+              </Text>
             </div>
           </div>
+          <div className="product_mapping_wrapper">
+            {data.map((el) => (
+              <div key={el.id} className="Product_card_container">
+                <div className="image_wrapper">
+                  <img src={el.img} alt={el.fname} className="product_image" /><span><FavoriteBorderRoundedIcon sx={{fontSize: "35px", color: "#1b3052", fontWeight:"50"}}/></span>
+                </div>
+                <div className="title_wrapper">
+                  <Heading
+                    as="h6"
+                    variant="h4"
+                    fontWeight="600"
+                    color="#1b3052"
+                  >
+                    {el.fname}
+                  </Heading>
+                </div>
+                <div className="description_wrapper">
+                  <Heading as="" variant="h4" color="#495975">
+                    {el.description}
+                  </Heading>
+                </div>
+                <div className="price_wrapper">
+                  <Heading variant="h4" color="#495975">
+                    $ {el.price}
+                  </Heading>
+                </div>
+                <div className="rating_wrapper">
+                  <Flex m="auto" pt="8px" w="75px" gap="3px">
+                    <StarIcon boxSize={3} color="#5e769b" />
+                    <StarIcon boxSize={3} color="#5e769b" />
+                    <StarIcon boxSize={3} color="#5e769b" />
+                    <StarIcon boxSize={3} color="#5e769b" />
+                    <StarIcon boxSize={3} color="gray.300" />
+                  </Flex>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-        <h2>hello</h2>
       </div>
     </>
   );

@@ -16,9 +16,9 @@
 }
 
 .Mens_body{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     width: 100%;
-    height: 2000px;
+    /* height: 2000px; */
     display: flex;
 }
 
@@ -26,7 +26,7 @@
     width: 95%;
     height: 40px;
     padding: 0 40px;
-    border: 1px solid rgb(36, 36, 185);
+    /* border: 1px solid rgb(36, 36, 185); */
     margin: auto;
     margin-top: 45px;
     padding: 0 40px;
@@ -35,8 +35,8 @@
 }
 
 .mens_sideBar{
-    border: 1px solid red;
-    width: 380px;
+    /* border: 1px solid red; */
+    width: 360px;
     /* height: 700px; */
     padding: 66px 0 40px;
 }
@@ -69,9 +69,9 @@
 
 .product_container{
     width: 1030px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     box-sizing: border-box;
-    padding: 0 40px 0 0;
+    padding: 0 10px 0 0;
     margin: 0 0 0 70px;
 }
 
@@ -98,5 +98,81 @@
 .stock_check_section{
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.product_mapping_wrapper{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin: 20px 0 0px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    row-gap: 30px;
+}
+
+.Product_card_container{
+    /* border: 1px solid orangered; */
+    width: 230px;
+    height: 400px;
+    margin: auto;
+}
+
+.Product_card_container:hover{
+    border: 1px dotted #9a9a9a;
+    border-spacing: 1px;
+    cursor: pointer;
+}
+
+.image_wrapper{
+    width: 229px;
+    height: 235px;
+    /* border: 1px solid green; */
+    margin: 10px 0 20px;
+    display: flex;
+}
+
+.product_image{
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    object-fit: scale-down;
+}
+
+.title_wrapper{
+    width: 100%;
+    height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_wrapper{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_wrapper{
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 8px 0;
+}
+
+.rating_wrapper{
+    width: 100%;
+    height: 21px;
+    margin: 6px 0 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
