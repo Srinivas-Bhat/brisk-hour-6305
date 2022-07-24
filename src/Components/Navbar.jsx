@@ -63,7 +63,7 @@ const Navbar = () => {
           <DrawerExample onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
         </div>
         <div className="head_flex">
-          <div className="header_website_title"></div>
+          <NavLink to="/"><div className="header_website_title"></div></NavLink>
         </div>
         <div className="head_right_icon_wrapper">
           <div className="wish_icon_wrapper">

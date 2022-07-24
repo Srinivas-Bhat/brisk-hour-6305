@@ -102,6 +102,7 @@ const FilterSectionArray = [
 ];
 const Mens = () => {
   const [data, setData] = useState([]);
+  const [text, setText] = useState("asc" || text)
   useEffect(() => {
     fetchData();
   }, []);
@@ -111,6 +112,17 @@ const Mens = () => {
     console.log(r.data);
     setData(r.data);
   };
+
+  function handleSelectChange (e) {
+    console.log(e.target.value);
+    setText(e.target.value);
+    const fetchSort= () =>{
+      let r = axios.get(`http://localhost:8080/ProductsArray?_sort=price&_order=${text}`)
+      console.log(r.data)
+      setData(r.data)
+    }
+  }
+
   return (
     <>
       <div className="moving_offers_section">
@@ -295,6 +307,7 @@ const Mens = () => {
                 cursor="pointer"
                 transition="0.9s ease"
                 boxShadow="none"
+                onChange={handleSelectChange}
                 _hover={{ backgroundColor: "white" }}
               >
                 <option value="Featred" id="select_option">
@@ -302,8 +315,8 @@ const Mens = () => {
                 </option>
                 <option value="New Arrivals">New Arrivals</option>
                 <option value="Best Sellers">Best Sellers</option>
-                <option value="Low to High">Price, Low to High</option>
-                <option value="High to Low">Price, High to Low</option>
+                <option value="asc">Price, Low to High</option>
+                <option value="dsc">Price, High to Low</option>
               </Select>
             </div>
           </div>
@@ -370,21 +383,4 @@ const Mens = () => {
 
 export default Mens;
 
-{
-  /* <Accordion allowToggle>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton>
-                        <Heading as="h6" variant="h4" flex="1" fontWeight="600" textAlign="left">
-                          Type
-                        </Heading>
-                        <AddIcon color="#12284c" />
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>Lorem</AccordionPanel>
-                    <AccordionPanel pb={4}>Lorem</AccordionPanel>
-                    <AccordionPanel pb={4}>Lorem</AccordionPanel>
-                    <AccordionPanel pb={4}>Lorem</AccordionPanel>
-                  </AccordionItem>
-                </Accordion> */
-}
+
