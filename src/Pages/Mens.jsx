@@ -24,6 +24,7 @@ import {
 } from "@chakra-ui/icons";
 import { useEffect } from "react";
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import { Link, NavLink } from "react-router-dom";
 
 const FilterSectionArray = [
   {
@@ -119,7 +120,7 @@ const Mens = () => {
       </div>
       <div className="mens_section_description">
         <Heading as="h3" variant="h4" fontWeight="300">
-          Home
+          <NavLink to="/">Home</NavLink>
         </Heading>
         <Heading as="h3" variant="h4" fontWeight="500">
           <ChevronRightIcon />
@@ -321,6 +322,8 @@ const Mens = () => {
               </Text>
             </div>
           </div>
+
+          {/* *************************** Mapping ************************ */}
           <div className="product_mapping_wrapper">
             {data.map((el) => (
               <div key={el.id} className="Product_card_container">
@@ -339,7 +342,7 @@ const Mens = () => {
                 </div>
                 <div className="description_wrapper">
                   <Heading as="" variant="h4" color="#495975">
-                    {el.description}
+                    {el.type}
                   </Heading>
                 </div>
                 <div className="price_wrapper">

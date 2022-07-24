@@ -133,15 +133,14 @@
     width: 200px;
     height: 235px;
     /* border: 1px solid green; */
-    margin: 10px 0 20px;
+    margin: 8px 0 20px;
     display: flex;
 }
 
 .product_image{
     width: 100%;
     height: 100%;
-    /* object-fit: contain; */
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .title_wrapper{
@@ -157,7 +156,7 @@
 .description_wrapper{
     width: 100%;
     height: 40px;
-    margin: 10px 0 4px;
+    margin: 8px 0 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +174,7 @@
 .rating_wrapper{
     width: 100%;
     height: 21px;
-    margin: 6px 0 0;
+    margin: 4px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
