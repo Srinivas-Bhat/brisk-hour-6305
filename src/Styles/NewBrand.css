@@ -30,6 +30,8 @@
     width: 350px;
     height: 400px;
     background: #ffffff;
+
+
 }
 
 .image_wrapper{
@@ -37,15 +39,21 @@
     height: 240px;
     margin: auto;
     box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .product_image{
     width: 100%;
     height: 100%;
+
 }
 
-.product_details_wrapper{
+.product_details_wrapper_newbrand{
     width: 270px;
     height: 150px;
     margin: auto;
+
 }

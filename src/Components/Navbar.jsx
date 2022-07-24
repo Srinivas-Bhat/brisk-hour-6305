@@ -81,7 +81,7 @@ const Navbar = () => {
           <div className="signup_icon_wrapper">
             <img src={user} alt="user" className="signup_icon" />
             <Heading as="h6" variant="h5" className="descriptions">
-              SIGN IN/UP
+              <NavLink to="/login">SIGN IN/UP</NavLink> 
             </Heading>
           </div>
           <div className="bag_icon_wrapper">
@@ -96,7 +96,7 @@ const Navbar = () => {
       <div className="dropdown_section_wrapper">
         <div className="hover-dropdown1">
           <Heading as="h3" variant="h4" className="drophead">
-            SHOP
+            <NavLink to="/mens">SHOP</NavLink>
           </Heading>
           <div className="dropdown-content1">
             <div className="drop_down_wrapper">

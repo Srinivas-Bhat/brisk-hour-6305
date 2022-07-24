@@ -20,7 +20,7 @@ const NewBrand = () => {
                 <div className="image_wrapper">
                     <img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-5060403580184-1_235x235_crop_center.jpg?v=1657786486" alt="products" className="product_image"/>
                 </div>
-                <div className="product_details_wrapper">
+                <div className="product_details_wrapper_newbrand">
                     <Heading as="h3" variant="h3" fontWeight="400" m="10px 61px 20px">BOUCLEME</Heading>
                     <Heading as="h4" variant="h3" m="0px 0px 8px">Intensive Moisture Treatment</Heading>
                     <Heading as="h4" variant="h3" m="0px 0px 5px">$36</Heading>

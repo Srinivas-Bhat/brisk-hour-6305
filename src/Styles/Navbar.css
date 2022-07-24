@@ -139,7 +139,7 @@
 }
 
 .dropdown-content1{
-    /* display: none; */
+    display: none;
     border: 5px solid rgb(255, 0, 0);
     width: 100%;
     margin: auto;
@@ -155,8 +155,8 @@
 }
 
 .hover-dropdown1:hover .dropdown-content1{
-    display: block;
-    /* display: none; */
+    /* display: block; */
+    display: none;
     transition: 5s;
 }
 

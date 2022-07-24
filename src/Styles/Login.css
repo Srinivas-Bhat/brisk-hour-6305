@@ -6,9 +6,11 @@
 
 
 #login_container{
-    width:50%;
+    /* width:50%; */
     margin:auto;
     text-align: center;
+    /* border: 1px solid green; */
+    margin-bottom: 30px;
 }
 
 #login_heading{
@@ -37,7 +39,7 @@
     font-family: 'Montserrat', sans-serif;  
     font-weight: 300;
     font-size: 14px; 
-    width:70%;
+    width: 30rem;
     text-indent: 12px;
     margin-bottom:20px;
     line-height:40px;   
