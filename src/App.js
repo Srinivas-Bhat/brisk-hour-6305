@@ -11,12 +11,12 @@ import ProductDetails from './Pages/ProductDetails';
 function App() {
   return (
     <div className="App">
-      {/* <AllRoutes/> */}
+      <AllRoutes/>
       {/* <Mens/> */}
       {/* <Navbar/> */}
       {/* <ProductDetails/> */}
       {/* <Login/> */}
-      <Signup/>
+      {/* <Signup/> */}
     </div>
   );
 }

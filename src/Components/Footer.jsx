@@ -47,8 +47,8 @@ export default function LargeWithLogoLeft() {
               <Text as="h4" variant="footer" m="20px 0px 0px">
                 By cotinuing, you agree to Bluemercury's
               </Text>
-              <Text variant="footer1">Privacy Practices.</Text>
-              <Flex gap="35px" m="25px 0 0 0">
+              <Text variant="footer1"><Link to="/privacy">Privacy Policy</Link></Text>
+              <Flex gap="35px" m="25px 0 0 0" cursor="pointer">
                 <img
                   src={twitter}
                   alt="twitter"

@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { AuthContext } from '../Context/AuthContext'
 import "../Styles/Signup.css"
 
 const Signup = () => {
+  const {state} = useContext(AuthContext)
   return (
     <div>
         <div id="container">
@@ -11,7 +13,7 @@ const Signup = () => {
                     <h1 id="create_account">CREATE ACCOUNT</h1>
                     <p id="complete_form">Complete the form below to create a bluemercury.com account.</p>
                 </header>
-                <form id="form" onsubmit="store(event)">
+                <form id="form" >
                     <input type="email" id="email" class="input" placeholder="Email*" required />
                     <input type="text"  id="first_name" class="input" placeholder="First Name*" required/>
                     <input type="text" id="last_name" class="input" placeholder="Last Name*" required/>
