@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# BlueMercury Website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bluemercury is the nation’s largest and fastest growing luxury beauty products and spa retail chain with the vast experience of more than 22years. Bluemercury website also offers store shopping in more than 180 stores nation wide.
 
-## Available Scripts
 
-In the project directory, you can run:
+# BlueMercury Clone.
 
-### `npm start`
+This is the clone of website Bluemercury which was an individual project assigined to me and I have tried to implement most of the functionality and hope to implement more of it over time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Building Blocks.
 
-### `npm test`
+- HTML.
+- React.
+- React Router Dom
+- Chakra UI
+- Swiper JS
+- CSS
+- JavaScript
+- JSON Server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Functionalities 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- User Signup and Login.
+- Responsive for the tablets and large screens.
+- Cart counter 
+- Product page 
+- Product Details Page
+- Sorting
+- Filters
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Code.
+- Pre-Requisite : VS Code.
+- Json server ( run at - http://localhost:8080/ProductsArray )
+- axios
+- import and export.
 
-### `npm run eject`
+github Link : https://github.com/Srinivas-Bhat/brisk-hour-6305 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Website Flow.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### SignUp / Login.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot (198)](https://user-images.githubusercontent.com/101566628/180774187-b6155784-e93e-4c4b-a09f-e94d40054737.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot (199)](https://user-images.githubusercontent.com/101566628/180774308-47309261-a161-4ddb-9a6d-640219b285d9.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#### HomePage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (197)](https://user-images.githubusercontent.com/101566628/180773632-55073045-6767-4573-a171-6b2ab8e9e053.png)
 
-### Analyzing the Bundle Size
+![Screenshot (200)](https://user-images.githubusercontent.com/101566628/180774421-7d4557d7-e02d-49fc-842c-2eae2975279b.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot (201)](https://user-images.githubusercontent.com/101566628/180774441-05b73a49-c123-45b6-a8bc-aec2b38b82fa.png)
 
-### Making a Progressive Web App
+![Screenshot (202)](https://user-images.githubusercontent.com/101566628/180774459-13245201-f7f8-4545-8a6a-74f8e97e1368.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#### Product Page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Screenshot (203)](https://user-images.githubusercontent.com/101566628/180774872-cf7f489c-8751-46a0-af4e-47f09110918d.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Screenshot (204)](https://user-images.githubusercontent.com/101566628/180774889-6e9b5ec0-ba7d-475a-a3b5-584d9dc4fc02.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Product Details Page.
+
+![Screenshot (205)](https://user-images.githubusercontent.com/101566628/180774963-ab08c67c-1a54-4d3f-b077-5aa91eebe881.png)
+
+
+![Screenshot (206)](https://user-images.githubusercontent.com/101566628/180774972-e04bff59-9093-41e6-9524-75ca902bf67a.png)
+
+### Deployed Link.
+
+https://srinivasbluemercury.netlify.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
