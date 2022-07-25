@@ -88,7 +88,7 @@ const Navbar = () => {
             <img src={bag} alt="" className="bag_icon" />
             {/* <span className="cart_count">1</span> */}
             <Heading as="h6" variant="h5" className="descriptions">
-              WISHLIST
+              BAG
             </Heading>
           </div>
         </div>

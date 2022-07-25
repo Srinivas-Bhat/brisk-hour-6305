@@ -24,7 +24,7 @@ import {
 } from "@chakra-ui/icons";
 import { useEffect } from "react";
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const FilterSectionArray = [
   {
@@ -102,7 +102,8 @@ const FilterSectionArray = [
 ];
 const Mens = () => {
   const [data, setData] = useState([]);
-  const [text, setText] = useState("asc" || text)
+  const [text, setText] = useState("")
+  const navigate = useNavigate()
   useEffect(() => {
     fetchData();
   }, []);
@@ -113,14 +114,29 @@ const Mens = () => {
     setData(r.data);
   };
 
-  function handleSelectChange (e) {
-    console.log(e.target.value);
-    setText(e.target.value);
-    const fetchSort= () =>{
-      let r = axios.get(`http://localhost:8080/ProductsArray?_sort=price&_order=${text}`)
-      console.log(r.data)
-      setData(r.data)
+
+  const updateFilter = (value) => {
+    console.log(value)
+    switch(value){
+      case "asc": {
+        let x = data.sort((a,b) => a.price-b.price)
+        setData([...x]);
+        console.log(data);
+      }
+      case "dsc": {
+        let x = data.sort((a,b) => b.price-a.price)
+        setData([...x]);
+        console.log(data);
+      }
+      default: {
+        setData(data)
+      }
     }
+  }
+
+  const handleMove = (id) => {
+    console.log(id)
+    navigate("/mens/id")
   }
 
   return (
@@ -307,7 +323,11 @@ const Mens = () => {
                 cursor="pointer"
                 transition="0.9s ease"
                 boxShadow="none"
-                onChange={handleSelectChange}
+                onChange={(e) => {
+                  // console.log(e.target.value);
+                  setText(e.target.value)
+                  updateFilter(e.target.value)
+                }}
                 _hover={{ backgroundColor: "white" }}
               >
                 <option value="Featred" id="select_option">
@@ -341,7 +361,7 @@ const Mens = () => {
             {data.map((el) => (
               <div key={el.id} className="Product_card_container">
                 <div className="image_wrapper">
-                  <img src={el.img} alt={el.fname} className="product_image" /><span><FavoriteBorderRoundedIcon sx={{fontSize: "25px", color: "#1b3052", fontWeight:"50"}}/></span>
+                  <Link to={`/mens/${el.id}`}><img src={el.img} alt={el.fname} className="product_image" /><span><FavoriteBorderRoundedIcon sx={{fontSize: "25px", color: "#1b3052", fontWeight:"50"}}/></span></Link>
                 </div>
                 <div className="title_wrapper">
                   <Heading
@@ -377,6 +397,11 @@ const Mens = () => {
           </div>
         </div>
       </div>
+      
+      <div style={{marginBottom: "280px",height: "0px"}} >
+      
+      </div>
+
     </>
   );
 };

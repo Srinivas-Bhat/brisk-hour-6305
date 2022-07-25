@@ -14,7 +14,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Styles/ProductDetails.css";
 import {
   AddIcon,
@@ -27,11 +27,21 @@ import {
 import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import BestSellers from "../Components/BestSellers";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 
 const ProductDetails = () => {
 
     const [count, setCount] = useState(1);
+    const [datas, setDatas] = useState({});
+    const params = useParams();
+    useEffect(() => {
+      fetch(`http://localhost:8080/ProductsArray/${params.id}`)
+        .then((res) => res.json())
+        .then((res) => {
+          console.log("res",res);
+          setDatas(res);
+        });
+    }, []);
   return (
     <div className="ProductDetails_container">
       <div className="moving_offers_section1">
@@ -45,16 +55,18 @@ const ProductDetails = () => {
             <NavLink to="/">Shop</NavLink>
             <ChevronRightIcon />
             Men <ChevronRightIcon />
-            Product
+            {datas.fname}
           </Heading>
         </div>
         <div className="product_details_box">
           <div className="product_image_wrapper">
-            <div className="small_image_section"></div>
+            <div className="small_image_section" style={{display: "flex", justifyContent: "center"}}>
+              <img src={datas.img} alt="image" width="100px" height="50px" style={{objectFit: "contain"}}/>
+            </div>
             <div className="large_image_section">
               <img
-                src="https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-682223041260-1_825x.jpg?v=1657026682"
-                alt="image"
+                src={datas.img}
+                alt={datas.fname}
                 className="product_image"
               />
             </div>
@@ -62,7 +74,7 @@ const ProductDetails = () => {
           <div className="product_details_wrapper">
             <div className="product_title">
               <Heading as="h3" variant="h2" fontWeight="400">
-                Jack Black
+                {datas.fname}
               </Heading>
               <Flex pt="2px" w="75px" gap="3px">
                 <StarIcon boxSize={3} color="#5e769b" />
@@ -74,7 +86,7 @@ const ProductDetails = () => {
             </div>
             <div className="product_title1">
               <Heading as="h3" variant="h9" color="#12284c" fontWeight="300">
-                Pit CTRL Aluminum-Free Deodorant
+               {datas.type}
               </Heading>
             </div>
             <div className="product_title1">
@@ -87,8 +99,7 @@ const ProductDetails = () => {
             </div>
             <div className="product_description_">
               <Heading as="" variant="h3">
-                Natural, * aluminum-free, vegan deodorant, featuring out
-                best-selling
+                {datas.description}
               </Heading>
             </div>
             <div className="button_counter_section">
@@ -106,7 +117,7 @@ const ProductDetails = () => {
                 fontWeight="300"
                 boxSizing="border-box"
               >
-                ADD TO BAG <span style={{marginLeft: "14rem", fontSize: '17px', fontWeight: "400"}}>$ 3</span>
+                ADD TO BAG <span style={{marginLeft: "14rem", fontSize: '17px', fontWeight: "400"}}>$ {datas.price}</span>
               </Button>
               <div className="counter_div">
                 <button className="counter_add_btn" onClick={() => setCount(count-1)}>
