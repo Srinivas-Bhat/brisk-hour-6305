@@ -56,8 +56,6 @@ github Link : https://github.com/Srinivas-Bhat/brisk-hour-6305
 
 ### HomePage.
 
-
-
 ![Screenshot (197)](https://user-images.githubusercontent.com/101566628/180773632-55073045-6767-4573-a171-6b2ab8e9e053.png)
 
 
