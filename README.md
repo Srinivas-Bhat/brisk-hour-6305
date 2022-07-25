@@ -42,41 +42,54 @@ github Link : https://github.com/Srinivas-Bhat/brisk-hour-6305
 
 ## Website Flow.
 
-#### SignUp / Login.
+### SignUp / Login.
+
+#### Signup
 
 ![Screenshot (198)](https://user-images.githubusercontent.com/101566628/180774187-b6155784-e93e-4c4b-a09f-e94d40054737.png)
 
 
+#### Login
+
 ![Screenshot (199)](https://user-images.githubusercontent.com/101566628/180774308-47309261-a161-4ddb-9a6d-640219b285d9.png)
 
 
-#### HomePage.
+### HomePage.
+
 
 ![Screenshot (197)](https://user-images.githubusercontent.com/101566628/180773632-55073045-6767-4573-a171-6b2ab8e9e053.png)
 
+
 ![Screenshot (200)](https://user-images.githubusercontent.com/101566628/180774421-7d4557d7-e02d-49fc-842c-2eae2975279b.png)
 
+
 ![Screenshot (201)](https://user-images.githubusercontent.com/101566628/180774441-05b73a49-c123-45b6-a8bc-aec2b38b82fa.png)
+
 
 ![Screenshot (202)](https://user-images.githubusercontent.com/101566628/180774459-13245201-f7f8-4545-8a6a-74f8e97e1368.png)
 
 
-#### Product Page.
+### Product Page.
+
 
 ![Screenshot (203)](https://user-images.githubusercontent.com/101566628/180774872-cf7f489c-8751-46a0-af4e-47f09110918d.png)
+
 
 
 ![Screenshot (204)](https://user-images.githubusercontent.com/101566628/180774889-6e9b5ec0-ba7d-475a-a3b5-584d9dc4fc02.png)
 
 
-#### Product Details Page.
+### Product Details Page.
+
 
 ![Screenshot (205)](https://user-images.githubusercontent.com/101566628/180774963-ab08c67c-1a54-4d3f-b077-5aa91eebe881.png)
+
 
 
 ![Screenshot (206)](https://user-images.githubusercontent.com/101566628/180774972-e04bff59-9093-41e6-9524-75ca902bf67a.png)
 
 ### Deployed Link.
+
 
 https://srinivasbluemercury.netlify.app/
 
