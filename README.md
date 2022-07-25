@@ -44,12 +44,12 @@ github Link : https://github.com/Srinivas-Bhat/brisk-hour-6305
 
 ### SignUp / Login.
 
-#### Signup
+#### Login
 
 ![Screenshot (198)](https://user-images.githubusercontent.com/101566628/180774187-b6155784-e93e-4c4b-a09f-e94d40054737.png)
 
 
-#### Login
+#### Signup
 
 ![Screenshot (199)](https://user-images.githubusercontent.com/101566628/180774308-47309261-a161-4ddb-9a6d-640219b285d9.png)
 
