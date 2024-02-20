@@ -92,7 +92,7 @@ GitHub Link : https://github.com/Srinivas-Bhat/brisk-hour-6305
 ### Deployed Link.
 
 
-https://srinivasbluemercury.netlify.app/
+https://bluemercury-clone-bice.vercel.app/
 
 
 
