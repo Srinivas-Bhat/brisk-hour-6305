@@ -23,7 +23,7 @@ This is the clone of website Bluemercury which was an individual project assigin
 ### Functionalities 
 
 - User Signup and Login.
-- Responsive for the tablets and large screens.
+- Responsive to the tablets and large screens.
 - Cart counter 
 - Product page 
 - Product Details Page
@@ -32,12 +32,12 @@ This is the clone of website Bluemercury which was an individual project assigin
 
 
 ### Running the Code.
-- Pre-Requisite : VS Code.
-- Json server ( run at - http://localhost:8080/ProductsArray )
-- axios
+- Pre-Requisite: VS Code.
+- JSON server ( run at - http://localhost:8080/ProductsArray ) command (npx json-server db.json --port 8080)
+- Axios
 - import and export.
 
-github Link : https://github.com/Srinivas-Bhat/brisk-hour-6305 
+GitHub Link : https://github.com/Srinivas-Bhat/brisk-hour-6305 
 
 
 ## Website Flow.
